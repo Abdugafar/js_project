@@ -1,2 +1,156 @@
-js_home-task
+///////   1  ////////
+// function amplify(num) {
+//     const arr = [];
+  
+//     for (let i = 1; i <= num; i++) {
+//       arr.push(i);
+//     }
+  
+//     return arr;
+//   }
 
+//   console.log(amplify(10));
+
+///////////////////////////////////////////
+
+// function repetition(txt, n) {
+//     if (n <= 0) {
+//       return '';
+//     } else {
+//       return txt + repetition(txt, n - 1);
+//     }
+//   }
+
+//   console.log(repetition('Hello', 3));
+  
+//////////////////////////////////////////////////
+
+// function myPi(n) {
+//     return Math.PI.toFixed(n);
+//   }
+  
+//   console.log(myPi(5));
+
+////////////////////////////////////////////////////////////
+
+
+// function sortNumbers(numbers) {
+//     if (!numbers || numbers.length === 0) {
+//       return [];
+//     }
+  
+//     return numbers.slice().sort((a, b) => a - b);
+//   }
+  
+//   console.log(sortNumbers([9, 4, 7, 2, 1, 5]));
+
+/////////////////////////////////////////////////////////////
+
+// function toBinary(number) {
+//     const num = parseInt(number, 16);
+//     const str = num.toString(2);
+//     return str;
+//   }
+  
+//   console.log(toBinary("0xFF"));
+
+//////////////////////////////////////////////////////////////////
+
+// function canNest(arr1, arr2) {
+//     const minArr1 = Math.min(...arr1);
+//     const minArr2 = Math.min(...arr2);
+//     const maxArr1 = Math.max(...arr1);
+//     const maxArr2 = Math.max(...arr2);
+  
+//     if (minArr1 > minArr2 && maxArr1 < maxArr2) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+
+//   const array1 = [1, 2, 3];
+//   const array2 = [0, 1, 2, 3, 4, 5];
+//   console.log(canNest([1, 2, 3], [0, 1, 2, 3, 4, 5]));
+  
+//   console.log(canNest([1, 2, 3, 4], [0, 6]));
+  
+///////////////////////////////////////////////////////////////////
+
+// function sayHelloBye(name, num) {
+//     if (num === 1) {
+//       return "Hello " + name;
+//     } else {
+//       return "Bye " + name;
+//     }
+//   }
+//   console.log(sayHelloBye("John", 1));
+//   console.log(sayHelloBye("Alice", 0));
+
+
+/////////////////////////////////////////////////////////////////////
+
+// function minutesToSeconds(time) {
+//     const [minut, second] = time.split(":");
+//     const total = parseInt(minut) * 60 + parseInt(second);
+//     return total;
+//   }
+  
+//   console.log(minutesToSeconds("02:54"));
+//   console.log(minutesToSeconds("10:15"));
+
+///////////////////////////////////////////////////////////////////
+
+
+// function secretSociety(names) {
+//     const a = names.map(name => name[0]);
+//     const b = a.sort();
+//     const ad = b.join("");
+//     return ad;
+//   }
+
+
+//   console.log(secretSociety(["John", "Alice", "Mark", "Emily"]));  
+  
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+// function reverse(str) {
+//     const a = str.split(' ');
+//     const revers = a.map(word => {
+//       if (word.length >= 5) {
+//         return word.split('').reverse().join('');
+//       }
+//       return word;
+//     });
+//     return revers.join(' ');
+//   }
+
+
+//   console.log(reverse("Reverse"));
+
+///////////////////////////////////////////////////////////////////////
+
+// function reverseCase(str) {
+//     let revers = '';
+    
+//     for (let i = 0; i < str.length; i++) {
+//       const char = str.charAt(i);
+      
+//       if (char === char.toUpperCase()) {
+//         revers += char.toLowerCase();
+//       } else {
+//         revers += char.toUpperCase();
+//       }
+//     }
+    
+//     return revers;
+//   }
+//   console.log(reverseCase("Happy Birthday"));
+
+////////////////////////////////////////////////////////////////////////////
+
+
+  
